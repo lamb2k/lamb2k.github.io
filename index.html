@@ -324,7 +324,7 @@ dialog pre { margin: 0; padding: 1.25rem; overflow-x: auto; font-size: 0.8rem; l
     <p class="role">Product leader and builder in New York</p>
 
     <div class="lede">
-      <p>I build software for Sega’s 1990s consoles: native ports of arcade and console games, plus the libraries, test tools and online services that support them.</p>
+      <p>I build software that brings back 1990s arcade and console gaming: Open Arcade, a social arcade in the browser, plus native ports for Sega’s consoles and the libraries, test tools and online services that support them.</p>
       <p>By day I’m Head of Innovation at <a href="https://addepar.com">Addepar</a>, where I founded Addepar Labs and launched Addison, the company’s first client-facing AI product. Before that I spent eight years building Addepar’s integration and API platform, which serves more than 1,300 investment firms.</p>
     </div>
 
@@ -346,6 +346,40 @@ dialog pre { margin: 0; padding: 1.25rem; overflow-x: auto; font-size: 0.8rem; l
     <section aria-labelledby="projects">
       <h2 id="projects">Projects</h2>
       <p class="intro">I run each project like a small product: a clear plan, one backlog, and automated tests before every release. I direct AI coding agents, which write most of the code. Players try the builds on real consoles and report back on GitHub.</p>
+
+      <div class="machine">
+        <div class="machine-head">
+          <h3>The browser</h3>
+          <p class="spec">Any phone or computer, with nothing to install.</p>
+        </div>
+        <ul class="projects">
+
+          <li class="project">
+            <h4><a href="https://open-arcade.app/games">Open Arcade</a> <span class="status">live</span></h4>
+            <figure class="shots" style="--ar: 16 / 9">
+              <div class="shots-grid">
+                <img src="shots/oa-entrance.webp" width="960" height="540" loading="lazy" alt="The Open Arcade entrance: anime art of an armored hero fighting a monster in a rainy back alley at night, with one arcade cabinet glowing at the end, and an Enter arcade button.">
+                <img src="shots/oa-games.webp" width="960" height="540" loading="lazy" alt="The Browse Games page listing 22 games, starting with Alien vs. Predator and Marvel vs. Capcom.">
+                <img src="shots/oa-play-watch.webp" width="960" height="540" loading="lazy" alt="The dialog for Dungeons and Dragons: Tower of Doom, with Play and Watch buttons.">
+              </div>
+              <figcaption>The entrance, the game list, and the choice to play or watch.</figcaption>
+            </figure>
+            <p>A low-friction social platform for retro gaming that brings back the 1990s arcade. Pick a nickname and you’re in: no account and no install. Choose from 22 arcade classics, sit down with a friend or a stranger, or watch a game in progress and chat with the players. It works with touch controls on a phone or with a game controller.</p>
+            <figure class="plate">
+              <div class="flow" role="img" aria-label="A guest picks a nickname, enters the arcade to choose from 22 games, then plays or watches a live session with two players, spectators and chat.">
+                <span class="box">A nickname<small>no account, no install</small></span>
+                <span class="edge"><span>enter</span></span>
+                <span class="box">22 games</span>
+                <span class="edge mine"><span>play or watch</span></span>
+                <span class="box mine">Live session<small>players, spectators, chat</small></span>
+              </div>
+              <figcaption>From the front door to a seat at a cabinet, without signing up.</figcaption>
+            </figure>
+            <p class="meta"><span>JavaScript on Cloudflare Workers</span> <a href="https://open-arcade.app/games">Play it</a></p>
+          </li>
+
+        </ul>
+      </div>
 
       <div class="machine">
         <div class="machine-head">
